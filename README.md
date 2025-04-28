@@ -1,6 +1,6 @@
 # Tareas ELO329
 
-Repositorio para el desarrollo de tareas del curso ELO329 correspondientes al semestre 2025-1.
+Repositorio para el desarrollo de tareas del curso ELO329, correspondientes al semestre 2025-1.
 
 ## Integrantes
 
