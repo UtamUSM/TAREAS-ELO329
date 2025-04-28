@@ -1,0 +1,1 @@
+MiRegistrador,Posiciones,30,23
