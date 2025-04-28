@@ -5,11 +5,11 @@ JVM= java  # Added by Agustin Gonzalez
 .java.class:
 	$(JC) $(JFLAGS) $*.java
 
-CLASSES = T1Stage3.java Broker.java Topic.java \
+CLASSES = Simulador.java Broker.java Topic.java \
 		Component.java Publisher.java Subscriber.java \
 	    Recorder.java Follower.java	
 
-MAIN = T1Stage3
+MAIN = Simulador
 
 default: classes
 

@@ -4,3 +4,5 @@ suscriptor Seguidor Seguidor_1 Notificaciones_1 seguidor_1.txt
 suscriptor Seguidor Seguidor_2 Notificaciones_2 seguidor_2.txt
 publicador GPS_1 Posiciones_1
 suscriptor Registrador Registrador_1 Posiciones_1 ruta_1.txt
+suscriptor Monitor Monitor_1 Posiciones_1 ubicacion_1.txt
+

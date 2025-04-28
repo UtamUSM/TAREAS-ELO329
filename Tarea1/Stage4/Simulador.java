@@ -4,18 +4,18 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class T1Stage3 {
+public class Simulador {
    public static void main (String args[]) {
       if (args.length != 0) {
             System.out.println("Usage: java T1Stage2");
             System.exit(-1);
          }
-      T1Stage3 stage = new T1Stage3();
+      Simulador stage = new Simulador();
       stage.setupSimulator();
       stage.runSimulation();
    }
 
-   public T1Stage3(){
+   public Simulador(){
       streamers = new ArrayList<>();
    }
    public void setupSimulator() {  // create main objects from code
@@ -51,6 +51,9 @@ public class T1Stage3 {
                    switch (tipo) {
                        case "Registrador" -> {
                         suscriptor = new Recorder(name, topicName, new PrintStream(outputFile));
+                       }
+                       case "Monitor" -> {
+                        suscriptor = new Monitor(name, topicName, new PrintStream(outputFile));
                        }
                        case "Seguidor" -> {
                         suscriptor = new Follower(name, topicName, new PrintStream(outputFile));

@@ -16,7 +16,7 @@ public class Monitor extends Subscriber {
         double distance = Math.sqrt(x * x + y * y);
 
         if (distance > 500) {
-            out.println(name + " " + topicName + " La distancia de " + topicName + " a los 500 permitidos, distancia actual: " + String.format("%.2f", distance));
+            out.println(name + " " + topicName + " La distancia de " + topicName + " supera los 500 permitidos, distancia actual: " + String.format("%.2f", distance));
         }
     }
 
