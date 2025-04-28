@@ -18,6 +18,11 @@ Repositorio para el desarrollo de tareas del curso ELO329, correspondientes al s
 
 # Consideraciones
 
+Esta tarea busca practicar la orientación a objeto en un sistema que simula la operación del patrón
+publicador y suscriptor. Este patrón será usado para anunciar eventos de forma asincrónica a varios
+consumidores interesados, sin necesidad de vincular directamente generadores de eventos con sus
+receptores.
+
 El archivo de configuracion txt usado es el mismo que dan como ejemplo en el documento de la tarea.
 
-Cada Stage presenta su makefile correspondiente.
+Cada stage presenta su makefile correspondiente.
