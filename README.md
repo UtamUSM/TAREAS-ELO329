@@ -19,3 +19,5 @@ Repositorio para el desarrollo de tareas del curso ELO329, correspondientes al s
 # Consideraciones
 
 El archivo de configuracion txt usado es el mismo que dan como ejemplo en el documento de la tarea.
+
+Cada Stage presenta su makefile correspondiente
