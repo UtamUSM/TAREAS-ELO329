@@ -25,4 +25,8 @@ receptores.
 
 El archivo de configuracion txt usado es el mismo que dan como ejemplo en el documento de la tarea.
 
-Cada stage presenta su makefile correspondiente.
+Cada stage presenta su makefile correspondiente donde para hacer uso del simulador es necesario encontrarse en la ruta del programa y ejecutar
+
+$ make # Para compilar
+$ make run # Para ejecutar
+$ make clean # Para limpiar los archivos .class
