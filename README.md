@@ -16,7 +16,7 @@ Repositorio para el desarrollo de tareas del curso ELO329, correspondientes al s
 - **Matías Elgueta**  
   Rol: 202073592-1
 
-## Consideraciones
+## Consideraciones Tarea 1
 
 Esta tarea busca practicar la orientación a objeto en un sistema que simula la operación del patrón
 publicador y suscriptor. Este patrón será usado para anunciar eventos de forma asincrónica a varios
