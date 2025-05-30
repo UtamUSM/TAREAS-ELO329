@@ -14,7 +14,7 @@ import java.io.FileNotFoundException;
 import java.util.Optional;
 import java.util.Scanner;
 
-public class Stage1 extends Application {
+public class Stage4 extends Application {
     private VBox vBoxLeft, vBoxRight;
     private Broker broker;
     public void start(Stage primaryStage) {
@@ -99,6 +99,17 @@ public class Stage1 extends Application {
         broker.subscribe(carTracker);
 
     }
+
+    private void addGPSSubs() {
+        String name = getInputSting("GPS Subscriber Name");
+        String topic = getInputSting("GPS Topic");
+
+        GPSCarSubscriber gpsSub = new GPSCarSubscriber(name, topic);
+        if (broker.subscribe(gpsSub)) {
+            // No se agrega a vBoxRight porque se abre en su propio Stage
+        }
+    }
+
 
     public static void main(String[] args) {
         launch(args);
