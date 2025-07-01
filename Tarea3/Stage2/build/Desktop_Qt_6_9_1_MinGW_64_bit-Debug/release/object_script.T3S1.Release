@@ -1,0 +1,12 @@
+release/Stage1.o
+release/broker.o
+release/component.o
+release/mainwindow.o
+release/publisher.o
+release/subscriber.o
+release/topic.o
+release/videofollower.o
+release/videopublisher.o
+release/moc_mainwindow.o
+release/moc_videofollower.o
+release/moc_videopublisher.o

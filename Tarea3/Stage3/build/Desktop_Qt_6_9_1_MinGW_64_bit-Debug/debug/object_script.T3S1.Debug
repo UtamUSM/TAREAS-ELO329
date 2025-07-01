@@ -1,0 +1,16 @@
+debug/Stage3.o
+debug/broker.o
+debug/component.o
+debug/gpscarpublisher.o
+debug/gpsfollower.o
+debug/mainwindow.o
+debug/publisher.o
+debug/subscriber.o
+debug/topic.o
+debug/videofollower.o
+debug/videopublisher.o
+debug/moc_gpscarpublisher.o
+debug/moc_gpsfollower.o
+debug/moc_mainwindow.o
+debug/moc_videofollower.o
+debug/moc_videopublisher.o
