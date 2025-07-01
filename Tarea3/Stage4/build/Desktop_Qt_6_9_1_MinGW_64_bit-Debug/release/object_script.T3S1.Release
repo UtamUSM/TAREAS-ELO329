@@ -1,0 +1,16 @@
+release/Stage3.o
+release/broker.o
+release/component.o
+release/gpscarpublisher.o
+release/gpsfollower.o
+release/mainwindow.o
+release/publisher.o
+release/subscriber.o
+release/topic.o
+release/videofollower.o
+release/videopublisher.o
+release/moc_gpscarpublisher.o
+release/moc_gpsfollower.o
+release/moc_mainwindow.o
+release/moc_videofollower.o
+release/moc_videopublisher.o
